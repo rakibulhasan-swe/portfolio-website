@@ -4,8 +4,8 @@ import logo from "../assets/logo.png";
 
 const NavigationBar = () => {
   return (
-    <div>
-      <Navbar expand="lg" className="bg-body-light shadow mb-3">
+    <>
+      <Navbar expand="lg" className="bg-body-light mb-5 mb-lg-0">
         <Container>
           <Navbar.Brand className="fw-bold fs-2" href="#home">
             <img className="img-fluid w-25" src={logo} alt="" />
@@ -29,7 +29,7 @@ const NavigationBar = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
+    </>
   );
 };
 

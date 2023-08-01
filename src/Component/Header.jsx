@@ -2,7 +2,12 @@ import React from "react";
 import developer from "../assets/developer.json";
 import Lottie from "lottie-react";
 import Typewriter from "typewriter-effect";
-import { FaFacebook, FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaFileDownload,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Container } from "react-bootstrap";
 
@@ -11,7 +16,7 @@ const Header = () => {
     <>
       <Container className="pb-5 fw-light">
         <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-lg-6 col-md-12 px-5">
+          <div className="col-lg-6 col-md-12">
             <div>
               <h5 className="fw-normal">
                 Hello there,
@@ -25,11 +30,11 @@ const Header = () => {
               </h5>
               <h1 className="fw-bold display-3">
                 Md. Rakibul Hasan
-                {/* <img
+                <img
                   width="40"
                   src="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif"
                   alt="✨"
-                ></img> */}
+                ></img>
               </h1>
               <h3 className="fw-normal d-flex">
                 <span className="me-2">I'm a</span>
@@ -84,8 +89,16 @@ const Header = () => {
             </div>
             <div>
               <button className="button-resume fw-bold btn rounded-0 mt-4">
-                <FaFileDownload className="me-1" />
-                Resume
+                <a
+                className="text-decoration-none"
+                  href="/Md._Rakibul Hasan_Resume.pdf"
+                  download={true}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaFileDownload className="me-1" />
+                  Resume
+                </a>
               </button>
             </div>
           </div>
