@@ -44,3 +44,16 @@
 .codeLink:hover{
   color: #3786F4 !important;
 }
+
+.btn-contact{
+  background-color: #3786F4;
+  color: #fff;
+}
+.btn-contact:hover{
+  background-color: #4a94fc;
+  color: #fff;
+}
+
+.icon-color{
+  color: #3786F4;
+}

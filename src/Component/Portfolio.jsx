@@ -4,6 +4,7 @@ import cookingChronicles from "../assets/cookingChronicles.png";
 import toytopia from "../assets/toytopia.png";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import { BsLightningChargeFill } from "react-icons/bs";
 
 const Portfolio = () => {
   const projects = [
@@ -11,6 +12,11 @@ const Portfolio = () => {
       id: 1,
       src: fluencyFusion,
       title: "Fluency Fusion",
+      desc: [
+        "Implemented Login/Logout system (email password and Google using Firebase Authentication).",
+        "By default, the user gets a student role. Students can enroll in the course and can pay via stripe.",
+        "Three different roles student, instructor, and admin. Private and public route.",
+      ],
       clientCode:
         "https://github.com/Rakibhasan-programmer/fluency-fusion-client",
       serverCode:
@@ -21,6 +27,11 @@ const Portfolio = () => {
       id: 2,
       src: cookingChronicles,
       title: "Cooking Chronicles",
+      desc: [
+        "Implemented Login/Logout system using firebase authentication.",
+        "User can see chef's information, view button will show chefs information and his Recipe's.",
+        "Without login a user can not see view recipe (private route, public route).",
+      ],
       clientCode:
         "https://github.com/Rakibhasan-programmer/cooking-chronicles-client",
       serverCode:
@@ -31,6 +42,11 @@ const Portfolio = () => {
       id: 3,
       src: toytopia,
       title: "Toytopia",
+      desc: [
+        "Implemented Login/Logout system using firebase authentication.",
+        "Private route, categorywise product showing. User can not add/see toys if he does not logged in.",
+        "A particular user can see his added toys. And he can update or delete his/her added toys.",
+      ],
       clientCode: "https://github.com/Rakibhasan-programmer/toytopia-client",
       serverCode: "https://github.com/Rakibhasan-programmer/toytopia-server",
       liveSite: "https://toytopia-59627.web.app/",
@@ -48,7 +64,7 @@ const Portfolio = () => {
         <div className="row">
           <div className="col-md-12 col-lg-10 mx-auto">
             {projects.map(
-              ({ id, src, title, liveSite, clientCode, serverCode }) => (
+              ({ id, src, title, liveSite, clientCode, serverCode, desc }) => (
                 <div
                   key={id}
                   className="row mt-5 p-3 rounded shadow d-flex justify-content-center align-items-center"
@@ -58,14 +74,14 @@ const Portfolio = () => {
                   </div>
                   <div className="col-md-12 col-lg-6">
                     <div className="p-5">
-                      <h4>{title}</h4>
-                      <p className="py-3 fw-light">
-                        A car rental website is an online platform that allows
-                        users to rent cars for personal or business use. The
-                        website provides an interface for searching, comparing,
-                        and reserving cars.
-                      </p>
-                      <div>
+                      <h4 className="pb-2">{title}</h4>
+                      {desc.map((des) => (
+                        <span className="fw-light d-block pt-2">
+                          <BsLightningChargeFill className="text-warning me-1" />
+                          {des}
+                        </span>
+                      ))}
+                      <div className="pt-4">
                         <a
                           href={clientCode}
                           target="_blank"
