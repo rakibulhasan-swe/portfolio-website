@@ -13,16 +13,16 @@ const NavigationBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link className="mx-2 fs-5" href="#home">
+              <Nav.Link className="mx-2 fs-5 nav-hover" href="#home">
                 Home
               </Nav.Link>
-              <Nav.Link className="mx-2 fs-5" href="#about">
+              <Nav.Link className="mx-2 fs-5 nav-hover" href="#about">
                 About
               </Nav.Link>
-              <Nav.Link className="mx-2 fs-5" href="#projects">
+              <Nav.Link className="mx-2 fs-5 nav-hover" href="#projects">
                 Projects
               </Nav.Link>
-              <Nav.Link className="mx-2 fs-5" href="#contact">
+              <Nav.Link className="mx-2 fs-5 nav-hover" href="#contact">
                 Contact
               </Nav.Link>
             </Nav>

@@ -33,3 +33,10 @@
   background: var(--color);
   color: #fff;
 }
+
+.nav-hover:hover{
+  color: #3786F4;
+  font-weight: bold;
+  border-bottom: 2px solid #3786F4;
+  transition: all 0.7s;
+}
