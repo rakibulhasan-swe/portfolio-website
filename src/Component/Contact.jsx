@@ -8,11 +8,12 @@ const Contact = () => {
         <div class="text-center">
           <h3 class="fs-2 fw-bold">Contact Me</h3>
           <p class="fw-light pt-3">
-            Submit the form below to get in touch with me
+            Submit the form below or you can directly send me email/whatsapp me
+            to get in touch with me
           </p>
         </div>
-        <div class="row pt-5 gy-3">
-          <div class="col-md-12 col-lg-6">
+        <div class="row pt-5 gy-3 d-flex justify-content-center align-items-center">
+          <div class="col-md-12 col-lg-5">
             <div class="row gy-4">
               <div class="col-md-6">
                 <div class="card py-4 text-center">
@@ -56,13 +57,13 @@ const Contact = () => {
                   </div>
                   <div class="card-body">
                     <h5 class="card-title pt-1 pb-2">Working Hours</h5>
-                    <p class="card-text small fw-light">24/7 days</p>
+                    <p class="card-text small fw-light">24/7 hours</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-12 col-lg-6">
+          <div class="col-md-12 col-lg-5">
             <form
               action="https://getform.io/f/868bae5c-819b-4df3-b4cd-60759e202e67"
               method="POST"

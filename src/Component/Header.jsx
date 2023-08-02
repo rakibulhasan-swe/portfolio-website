@@ -16,7 +16,7 @@ const Header = () => {
     <>
       <Container className="pb-5 fw-light">
         <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-lg-6 col-md-12">
+          <div className="col-lg-5 col-md-12">
             <div>
               <h5 className="fw-normal">
                 Hello there,
@@ -28,7 +28,7 @@ const Header = () => {
                 ></img>
                 I'm
               </h5>
-              <h1 className="fw-bold display-3">
+              <h1 className="fw-bold display-4">
                 Md. Rakibul Hasan
                 <img
                   width="40"
@@ -102,7 +102,7 @@ const Header = () => {
               </button>
             </div>
           </div>
-          <div className="col-lg-6 col-md-12">
+          <div className="col-lg-5 col-md-12">
             <div>
               <Lottie animationData={developer} loop={true} />
             </div>
