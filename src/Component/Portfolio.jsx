@@ -74,7 +74,7 @@ const Portfolio = () => {
                   </div>
                   <div className="col-md-12 col-lg-6">
                     <div className="p-5">
-                      <h4 className="pb-2">{title}</h4>
+                      <h4 className="pb-2 fw-semibold">{title}</h4>
                       {desc.map((des) => (
                         <span className="fw-light d-block pt-2">
                           <BsLightningChargeFill className="text-warning me-1" />
@@ -85,21 +85,21 @@ const Portfolio = () => {
                         <a
                           href={clientCode}
                           target="_blank"
-                          className="text-decoration-none text-dark fw-bold codeLink"
+                          className="text-decoration-none fw-bold codeLink"
                         >
-                          Client Side Code <FaGithub />
+                          Client Side <FaGithub />
                         </a>
                         <a
                           href={serverCode}
                           target="_blank"
-                          className="text-decoration-none text-dark fw-bold px-3 codeLink"
+                          className="text-decoration-none fw-bold px-3 codeLink"
                         >
-                          Server Side Code <FaGithub />
+                          Server Side <FaGithub />
                         </a>
                         <a
                           href={liveSite}
                           target="_blank"
-                          className="text-decoration-none text-dark fw-bold codeLink"
+                          className="text-decoration-none fw-bold codeLink"
                         >
                           Live Site <BsBoxArrowUpRight />
                         </a>

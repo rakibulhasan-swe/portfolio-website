@@ -18,7 +18,7 @@ const Contact = () => {
               <div class="col-md-6">
                 <div class="card py-4 text-center">
                   <div>
-                    <FaLocationArrow className="fs-5 icon-color" />
+                    <FaLocationArrow className="fs-4 icon-color" />
                   </div>
                   <div class="card-body">
                     <h5 class="card-title pt-1 pb-2">Address</h5>
@@ -29,10 +29,10 @@ const Contact = () => {
               <div class="col-md-6">
                 <div class="card py-4 text-center">
                   <div>
-                    <FaMobile className="fs-5 icon-color" />
+                    <FaMobile className="fs-4 icon-color" />
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title pt-1 pb-2">Call Me</h5>
+                    <h5 class="card-title pt-1 pb-2">WhatsApp</h5>
                     <p class="card-text small fw-light">+8801749006471</p>
                   </div>
                 </div>
@@ -40,10 +40,10 @@ const Contact = () => {
               <div class="col-md-6">
                 <div class="card py-4 text-center">
                   <div>
-                    <FaEnvelope className="fs-5 icon-color" />
+                    <FaEnvelope className="fs-4 icon-color" />
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title pt-1 pb-2">Email Us</h5>
+                    <h5 class="card-title pt-1 pb-2">Email</h5>
                     <p class="card-text small fw-light">
                       dev.rakibulhassan@gmail.com
                     </p>
@@ -53,7 +53,7 @@ const Contact = () => {
               <div class="col-md-6">
                 <div class="card py-4 text-center">
                   <div>
-                    <FaClock className="fs-5 icon-color" />
+                    <FaClock className="fs-4 icon-color" />
                   </div>
                   <div class="card-body">
                     <h5 class="card-title pt-1 pb-2">Working Hours</h5>
@@ -96,12 +96,12 @@ const Contact = () => {
                   id=""
                   cols="30"
                   rows="6"
+                  placeholder="Message"
                 >
-                  Message
                 </textarea>
               </div>
               <div class="input-group mb-3">
-                <button type="submit" class="btn btn-contact form-control py-2">
+                <button type="submit" class="btn btn-contact form-control py-2 fw-bold">
                   Send Message
                 </button>
               </div>
