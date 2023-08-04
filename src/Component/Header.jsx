@@ -36,21 +36,23 @@ const Header = () => {
                   alt="✨"
                 ></img>
               </h1>
-              <h3 className="fw-normal d-flex">
+              <h3 className="fw-semibold d-flex">
                 <span className="me-2">I'm a</span>
-                <Typewriter
-                  options={{
-                    strings: [
-                      "Front-end developer",
-                      "React developer",
-                      "Fullstack developer",
-                      "Problem Solver",
-                      "Software Developer",
-                    ],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
+                <span className="text-color">
+                  <Typewriter
+                    options={{
+                      strings: [
+                        "Front-end developer",
+                        "React developer",
+                        "Fullstack developer",
+                        "Problem Solver",
+                        "Software Developer",
+                      ],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </span>
               </h3>
             </div>
             <div>
@@ -90,7 +92,7 @@ const Header = () => {
             <div>
               <button className="button-resume fw-bold btn rounded-0 mt-4">
                 <a
-                className="text-decoration-none"
+                  className="text-decoration-none"
                   href="/Md._Rakibul Hasan_Resume.pdf"
                   download={true}
                   target="_blank"

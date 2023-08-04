@@ -5,7 +5,7 @@
 .button-resume {
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
-  --color: #3786F4;
+  --color: #4A42EA;
   
   padding: calc(.3em + var(--s)) calc(.9em + var(--s));
   --_p: var(--s);
@@ -35,25 +35,44 @@
 }
 
 .nav-hover:hover{
-  color: #3786F4;
+  color: #4A42EA;
   font-weight: bold;
-  border-bottom: 2px solid #3786F4;
   transition: all 0.7s;
 }
 
 .codeLink:hover{
-  color: #3786F4 !important;
+  color: #4A42EA !important;
 }
 
 .btn-contact{
-  background-color: #3786F4;
+  background-color: #4A42EA;
   color: #fff;
 }
 .btn-contact:hover{
-  background-color: #4a94fc;
+  background-color: #5e56f5;
   color: #fff;
 }
 
 .icon-color{
-  color: #3786F4;
+  color: #4A42EA;
 }
+.text-color{
+  color: #4A42EA;
+}
+.borderBottom{
+  border-bottom: 2px solid rgb(244, 241, 241);
+}
+
+/* Scrool Bar Coustom Style Start*/
+html::-webkit-scrollbar {
+  width: 0.6rem;
+}
+html::-webkit-scrollbar-track {
+  background: white;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #4A42EA;
+  border-radius: 25px;
+}
+/* Scrool Bar Coustom Style End*/
