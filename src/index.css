@@ -36,8 +36,9 @@
 
 .nav-hover:hover{
   color: #4A42EA;
-  font-weight: bold;
-  transition: all 0.7s;
+}
+.nav-hover{
+  font-size: 1.1rem;
 }
 
 .codeLink:hover{
@@ -51,6 +52,16 @@
 .btn-contact:hover{
   background-color: #5e56f5;
   color: #fff;
+}
+
+/* theme icons */
+.btn-primary{
+  background-color: #4A42EA !important;
+  color: white;
+  font-size: 1.1rem;
+}
+.btn-primary:hover{
+  background-color: #5e56f5 !important;
 }
 
 .icon-color{

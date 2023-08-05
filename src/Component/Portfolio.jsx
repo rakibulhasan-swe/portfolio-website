@@ -73,7 +73,7 @@ const Portfolio = () => {
                     <img className="img-fluid rounded" src={src} alt="" />
                   </div>
                   <div className="col-md-12 col-lg-6">
-                    <div className="p-5">
+                    <div className="p-4">
                       <h4 className="pb-2 fw-semibold">{title}</h4>
                       {desc.map((des) => (
                         <span className="fw-light d-block pt-2">
