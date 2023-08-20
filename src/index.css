@@ -34,12 +34,27 @@
   color: #fff;
 }
 
+.nav-hover{
+  font-size: 1.1rem;
+  position: relative;
+}
+.nav-hover::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #0A66C2;
+  transition: all ease 1s;
+}
+.nav-hover:hover::after{
+  width: 100%;
+}
 .nav-hover:hover{
   color: #4A42EA;
 }
-.nav-hover{
-  font-size: 1.1rem;
-}
+
 
 .codeLink:hover{
   color: #4A42EA !important;

@@ -5,12 +5,13 @@ import { BsMoon, BsSun } from "react-icons/bs";
 
 const NavigationBar = () => {
   const [theme, setTheme] = useState("light");
-
+  // dark/light theme changer
   useEffect(() => {
     const html = document.querySelector("html");
     html.setAttribute("data-bs-theme", theme);
   }, [theme]);
 
+  // handling state change of dark/light theme
   const handleThemeChange = () => {
     if (theme === "light") {
       setTheme("dark");
