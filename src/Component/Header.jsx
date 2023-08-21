@@ -28,7 +28,7 @@ const Header = () => {
                 ></img>
                 I'm
               </h5>
-              <h1 className="fw-bold display-4">
+              <h1 className="fw-bold display-4 name-design">
                 Md. Rakibul Hasan
                 <img
                   width="40"

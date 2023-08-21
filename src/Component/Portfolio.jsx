@@ -69,8 +69,10 @@ const Portfolio = () => {
                   key={id}
                   className="row mt-5 p-3 rounded shadow d-flex justify-content-center align-items-center"
                 >
-                  <div className="col-md-12 col-lg-6">
-                    <img className="img-fluid rounded" src={src} alt="" />
+                  <div className="col-md-12 col-lg-6 image-container">
+                    <div className="image-wrapper">
+                      <img className="img-fluid rounded " src={src} alt="" />
+                    </div>
                   </div>
                   <div className="col-md-12 col-lg-6">
                     <div className="p-4">

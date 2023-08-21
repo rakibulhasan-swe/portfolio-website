@@ -55,6 +55,39 @@
   color: #4A42EA;
 }
 
+/* .name-design{
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+} */
+
+
+/* scrolling image */
+.image-container {
+  width: 28rem;
+  height: 18rem;
+  overflow: hidden;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  transition: transform 7s ease-in-out;
+}
+
+.image-wrapper:hover img {
+  transform: translateY(calc(-100% + 18rem));
+}
+
 
 .codeLink:hover{
   color: #4A42EA !important;
