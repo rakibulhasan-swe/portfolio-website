@@ -12,7 +12,7 @@ const Contact = () => {
             to get in touch with me
           </p>
         </div>
-        <div class="row pt-5 gy-3 d-flex justify-content-center align-items-center">
+        <div class="row pt-5 gy-3 d-flex justify-content-center">
           <div class="col-md-12 col-lg-5">
             <div class="row gy-4">
               <div class="col-md-6">

@@ -77,8 +77,8 @@ const Portfolio = () => {
                   <div className="col-md-12 col-lg-6">
                     <div className="p-4">
                       <h4 className="pb-2 fw-semibold">{title}</h4>
-                      {desc.map((des) => (
-                        <span className="fw-light d-block pt-2">
+                      {desc.map((des, index) => (
+                        <span className="fw-light d-block pt-2" key={index}>
                           <BsLightningChargeFill className="text-warning me-1" />
                           {des}
                         </span>

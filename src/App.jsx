@@ -8,6 +8,7 @@ import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
 import { useEffect, useState } from "react";
 import LoadingSpinner from "./Component/LoadingSpinner";
+import Blogs from "./Component/Blogs";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ function App() {
           <Header />
           <Skills />
           <Portfolio />
+          <Blogs />
           <Contact />
           <Footer />
         </>
