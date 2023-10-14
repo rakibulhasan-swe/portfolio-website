@@ -1,23 +1,23 @@
 [
     {
         "id": 1,
-        "image": "https://i.ibb.co/XLcFR4v/woman-learning-english-online-e1625538535869.jpg",
-        "title": "Why Are You Thinking About Learning Better English?",
-        "desc": "If youre reading this, it is because you are thinking of improving your level of English. You probably know this will take effort and determination, and you are willing to do it.Thats because you think it will be worthwhile here are some of the reasons you are right.",
+        "image": "https://i.ibb.co/nzzJ0qk/next-vs-react.jpg",
+        "title": "React vs Next",
+        "desc": "Next JS offers server-side rendering (SSR), whereas Create React App offers client-side rendering, improving the application performance. Next. js is a framework, used to build UI and pages for the web app with React library, while React. js as a library is a part of a framework, the UI components part.",
         "date": "June 29, 2022"
     },
     {
       "id": 2,
-      "image": "https://i.ibb.co/f1Rtf62/spending-time-online.jpg",
-      "title": "8 Most Asked Questions About The Ielts Exam",
-      "desc": "The biggest difference between the two tests is the speaking section. In TOEFL you speak to a computer, which students may find very unnatural, but during the IELTS exam you speak to a real person, which makes it feel more like a real conversation.",
+      "image": "https://i.ibb.co/c62MrJQ/junior-senior.png",
+      "title": "Junior to Senior Web developer roadmap",
+      "desc": "Are you someone who is a junior developer struggling to climb up the corporate ladder and become a senior developer? Are you a full-stack developer who feels lost and don't know where to start?You are in the right place. This is a Step-by-step roadmap for Junior Developer to becoming an admired and respected Senior Developer",
       "date": "July 2, 2023"
     },
     {
       "id": 3,
-      "image": "https://i.ibb.co/DDrPNqq/woman-teacher-teaching-online-coronavirus-and-online-distance-learning-concept.jpg",
-      "title": "How To Set Yourself Up For Success A New Career",
-      "desc": "Everyone dreams of having a highly successful career that they enjoy and that provides them with the successful life they desire. Far too many of us, though, end up settling short when it comes to career success, working jobs we donot enjoy for less money than we would like to have.",
+      "image": "https://i.ibb.co/fxT7Qy9/singleton.png",
+      "title": "Singleton - JavaScript Design Patterns",
+      "desc": "Design patterns are solutions to solve our common and recurring problems. We all develop and face problems everyday and many of them are generally similar to each other. These patterns are born to solve these common problems. Surely, you can accept them as a guide and customize them to satisfy your needs specifically in your project. In this article, we will talk about 'Singleton' which is only one of the design patterns.",
       "date": "June 29, 2023"
     }
 ]

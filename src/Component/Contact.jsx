@@ -6,8 +6,8 @@ const Contact = () => {
     <>
       <div class="container py-5" id="contact">
         <div class="text-center">
-          <h3 class="fs-2 fw-bold">Contact Me</h3>
-          <p class="fw-light pt-3">
+          <h1 class="fw-bold">Contact Me</h1>
+          <p class="fw-light pt-2 text-uppercase">
             Submit the form below or you can directly send me email/whatsapp me
             to get in touch with me
           </p>
