@@ -7,7 +7,7 @@ const Cards = ({ singleBlog }) => {
   return (
     <>
       <div className="col-lg-4">
-        <Card className="border-0">
+        <Card className="border-0 shadow">
           <Card.Img style={{height: "20rem"}} variant="top" src={image} />
           <Card.Body>
             <Card.Title className="fw-semibold">{title}</Card.Title>
