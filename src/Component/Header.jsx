@@ -14,9 +14,9 @@ import { Container } from "react-bootstrap";
 const Header = () => {
   return (
     <>
-      <Container className="pb-5 fw-light">
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-lg-5 col-md-12">
+      <Container className="pb-5 fw-light h-auto">
+        <div className="row d-flex justify-content-center align-items-center py-lg-5">
+          <div className="col-lg-5 col-12">
             <div>
               <h5 className="fw-normal">
                 Hello there,
@@ -104,7 +104,7 @@ const Header = () => {
               </button>
             </div>
           </div>
-          <div className="col-lg-5 col-md-12">
+          <div className="col-lg-5 col-12">
             <div>
               <Lottie animationData={developer} loop={true} />
             </div>

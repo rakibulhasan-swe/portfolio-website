@@ -11,7 +11,7 @@ import LoadingSpinner from "./Component/LoadingSpinner";
 import Blogs from "./Component/Blogs";
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
